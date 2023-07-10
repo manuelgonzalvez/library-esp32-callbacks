@@ -1,0 +1,31 @@
+{
+    "name": "callbacks",
+    "version": "0.0.1",
+    "description": "Implementacion de Observer pattern para callback de funciones en dataprocess",
+    "keywords": "Observer, Observable, callback",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Satelitech/library-esp32-callbacks.git"
+    },
+    "authors": [
+      {
+        "name": "Manuel Gonzalvez",
+        "email": "mgonzalvez@satelitech.com",
+        "maintainer": true
+      }
+    ],
+    "exclude": [
+      "test"
+    ],
+    "dependencies": {
+      "bblanchon/ArduinoJson": "6.18.5"
+    },
+    "frameworks": "arduino",
+    "platforms": "espressif32",
+    "build": {
+      "includeDir": "lib/observerCallbacks",
+      "flags": [
+        "-I lib/observerCallbacks/src"
+      ]
+    }
+  }
