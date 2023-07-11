@@ -46,7 +46,7 @@ public:
     {
         String trimmedInput = input;
         trimmedInput.trim();
-        log_v("Input: %s", trimmedInput.c_str());
+        // log_v("Input: %s", trimmedInput.c_str());
 
         for (auto observer : observers)
         {
